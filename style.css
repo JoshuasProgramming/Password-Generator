@@ -1,0 +1,72 @@
+body{
+    background: thistle;
+}
+
+h1{
+    text-align:center;
+    font-size:25px;
+    font-family:Tahoma, sans-serif;
+}
+
+.container{
+    width:455px;
+    height:410px;
+    background: snow;
+    margin:130px 435px;
+    border-radius:25px;
+    box-shadow:1px 1px 11px black;
+}
+
+.output-area{
+    font-size:30px;
+    border:2px solid black;
+    width:400px;
+    height:50px;
+    margin:0px 25px;
+    text-align: center;
+    font-weight:bold;
+    font-family:Tahoma, sans-serif;
+}
+
+.symbols-btn, .upper-btn, .lower-btn, .numbers-btn{
+    font-size:25px;
+    font-family:Tahoma, sans-serif;
+}
+
+.length-btn{
+    font-size:25px;
+    width:400px;
+    height:50px;
+    margin:0px 25px;
+    font-family:Tahoma, sans-serif;
+}
+
+.length{
+    width:300px;
+    height: 20px;
+    font-size:25px;
+}
+
+.submit-btn{
+    border:none;
+    border:2px solid black;
+    font-size:30px;
+    border-radius: 25px;
+    margin:15px 80px;
+    opacity: 75%;
+}
+
+.submit-btn:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.submit-btn:active{
+    box-shadow: 1px 1px 11px black;
+}
+
+.flex{
+    display:grid;
+    grid-template-columns: auto auto;
+    margin:30px;
+}
